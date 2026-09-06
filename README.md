@@ -36,7 +36,7 @@ cd fabrica
 npx -y skills add . -g -y
 ```
 
-`-g` = global no **utilizador**. Qualquer janela do Cursor neste login vê as 9 skills.
+`-g` = global no **utilizador**. Qualquer janela do Cursor neste login vê as skills.
 
 Actualizar depois de um `git pull`:
 
@@ -82,6 +82,7 @@ Atalhos:
 - prompt JSON / TOON → `prompt-contract`
 - thread longa / tokens → `context-budget`
 - “vamos treinar” → `finetune-gate`
+- criar / rever agente autónomo → `autonomous-agent`
 
 ---
 
@@ -98,6 +99,7 @@ Atalhos:
 | `prompt-contract` | system prompt, JSON, TOON | Prompt como contrato: input, schema, recusa, temperatura |
 | `context-budget` | conversa longa, tokens | Paga contexto só pelo que muda a próxima acção. Spec ganha à arqueologia do chat |
 | `finetune-gate` | fine-tune, LoRA, “vamos treinar” | 4 perguntas. Um não = não treina. Dataset e eval **antes** de GPU |
+| `autonomous-agent` | ReAct, harness, memória, LangGraph, multiagente | Ordem: harness → spec → loop → uma store → eval → gate. Time só no fim |
 
 Agents (em `drop-in/.cursor/agents/`):
 
@@ -129,6 +131,7 @@ A pós UNIPDS ensina os sistemas. Este repo **extrai o método** para qualquer p
 
 | Padrão no curso | Skill aqui |
 |---|---|
+| Disciplina 4 — agentes autónomos (OpsPilot) | `autonomous-agent` |
 | Spec + Copilot com guardrails | `spec-driven`, `pensador` |
 | Canvas agente vs regra, gateway, gate | `ai-architecture`, `approval-gate` |
 | Geração / auditoria / self-healing K8s | `k8s-ops` |
@@ -154,6 +157,7 @@ fabrica/
     prompt-contract/
     context-budget/
     finetune-gate/
+    autonomous-agent/
   drop-in/          ← opcional, copiar para um clone da aula
     AGENTS.md
     .cursor/agents/

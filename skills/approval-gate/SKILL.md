@@ -3,7 +3,7 @@ name: approval-gate
 description: Require a human gate before irreversible actions. Use when the task would deploy, kubectl apply, drop data, delete, send email, charge money, write production config, or the user says apply, destroy, publish, pagar. Also when an agent wants to run a destructive tool.
 ---
 
-Irreversible work is a **proposal**, not an execution.
+Autonomy matrix: **free** · **run and log** · **ask a human** · **does not exist** (e.g. wipe the audit trail, leak user data). This skill is the third bucket.
 
 ## Loop
 

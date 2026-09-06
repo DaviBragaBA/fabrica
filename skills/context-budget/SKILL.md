@@ -15,3 +15,5 @@ Context is rent. Pay only for what still changes the next action.
 If the user needs history, write a `SESSION.md` in the repo (decisions + next action) rather than pasting the whole thread again.
 
 Prefer a compact command (`git diff`, test name, file:line) over dumping a build log.
+
+For an **agent** prompt: cap sections (system, memories, recent turns, tools, current message). Measure tokens. Rolling summary of old turns — start and end of the window beat the middle (`autonomous-agent` / memory).

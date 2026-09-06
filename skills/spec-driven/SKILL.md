@@ -5,6 +5,8 @@ description: Write a numbered spec with a done-criterion before coding a feature
 
 Do not start implementation until a spec exists in the repo (or the user pastes one).
 
+Order: **spec → plan → tasks → code**. Spec is intent and done-criteria. Plan is architecture. Tasks are slices. Code comes last. Spec Kit (`specify` / `plan` / `tasks`) if the repo already uses it.
+
 ## Spec shape (`specs/NNN-slug.md`)
 
 1. **Problema** — one paragraph, observable.
