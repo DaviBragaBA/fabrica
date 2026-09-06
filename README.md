@@ -82,7 +82,8 @@ Atalhos:
 - prompt JSON / TOON → `prompt-contract`
 - thread longa / tokens → `context-budget`
 - “vamos treinar” → `finetune-gate`
-- criar / rever agente autónomo → `autonomous-agent`
+- criar agent / Agent Forge → [criador-de-agents](https://github.com/DaviBragaBA/agent-forge)
+- rever agent / ReAct / “está sólido?” → `autonomous-agent`
 
 ---
 
@@ -99,7 +100,7 @@ Atalhos:
 | `prompt-contract` | system prompt, JSON, TOON | Prompt como contrato: input, schema, recusa, temperatura |
 | `context-budget` | conversa longa, tokens | Paga contexto só pelo que muda a próxima acção. Spec ganha à arqueologia do chat |
 | `finetune-gate` | fine-tune, LoRA, “vamos treinar” | 4 perguntas. Um não = não treina. Dataset e eval **antes** de GPU |
-| `autonomous-agent` | ReAct, harness, memória, LangGraph, multiagente | Ordem: harness → spec → loop → uma store → eval → gate. Time só no fim |
+| `autonomous-agent` | rever agent, ReAct, LangGraph, “está sólido?” | Checklist da Disciplina 4. **Não** gera os 9 contratos — isso é o [Agent Forge / criador-de-agents](https://github.com/DaviBragaBA/agent-forge) |
 
 Agents (em `drop-in/.cursor/agents/`):
 

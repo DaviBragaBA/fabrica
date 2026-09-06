@@ -5,7 +5,7 @@ Copia este ficheiro para a raiz de **qualquer** repo clonado. Não assume produt
 1. Ideia nova → skill `grilling`. Não implementar enquanto o frontier tiver pergunta aberta.
 2. Feature / API / agente → skill `spec-driven`. Spec com critério de done **antes** de código.
 3. “Mete IA” → skill `ai-architecture`. Agente só se regra não chega.
-4. Criar / rever agente autónomo (ReAct, memória, MCP, time) → skill `autonomous-agent`.
+4. Gerar 9 contratos Agent Forge → `/criador-de-agents` (repo agent-forge). Rever se o agent está sólido → `autonomous-agent`.
 5. Acção irreversível (apply, deploy, delete, pagar, e-mail) → skill `approval-gate`. Dry-run primeiro.
 6. Kubernetes / self-healing / CrashLoop / GitOps → skill `k8s-ops`.
 7. Prompt / JSON / TOON → skill `prompt-contract`.

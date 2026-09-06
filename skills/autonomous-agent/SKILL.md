@@ -1,9 +1,11 @@
 ---
 name: autonomous-agent
-description: Design or review an autonomous software agent — loop, tools, memory, eval, harness, multi-agent. Use when the user says agente autónomo, criar um agent, ReAct, Plan-and-Execute, Reflection, harness, Spec Kit, memória semântica, LangGraph, MCP server, war room, supervisor, blackboard, OpsPilot, or is turning an LLM into software that calls tools and keeps state.
+description: Engineering checklist for an agent that already exists or is being designed as software — ReAct vs Plan-and-Execute vs Reflection, harness vs permission, one store, memory, eval, LangGraph, MCP door, supervisor/blackboard. Use when reviewing an agent, OpsPilot, traces, CrashLoop of agent logic, or “isto está sólido?”. Do not generate Agent Forge 9-contract files; “criar um agent” / agent forge / /criador-de-agents belongs to criador-de-agents. When both apply, this skill is the rules; criador is the factory.
 ---
 
 An agent is **software**: perceive → decide → act → observe, with a **stop condition**. The LLM is the decision engine, not the product.
+
+Generating `agent.md` + blueprint in Agent Forge is **`criador-de-agents`**. This skill does not write those nine files. If the user is in that wizard, only supply this checklist when the criador asks; do not start a second wizard.
 
 Start simple. Multi-agent is a rearrangement of a base that already has store, tools, trace, and gates — not a new architecture.
 
