@@ -1,0 +1,5 @@
+{
+  "name": "fabrica",
+  "private": true,
+  "description": "Portable agent skills. Clone, npx skills add . -g"
+}
